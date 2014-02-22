@@ -7,7 +7,7 @@ puts "What is your middle name?"
 middle = gets.chomp
 puts "What is your last name?"
 last = gets.chomp
-puts "It is nice to meet you %s %s %s"% [first, middle, last]
+puts "It is nice to meet you, #{first} #{middle} #{last}"
 
 puts "What is your favorite number?"
 number = gets.chomp
