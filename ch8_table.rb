@@ -5,7 +5,7 @@ title = 'Table of Contents'
 
 chapters = [['Getting Started',  1],
             ['Numbers',          9],
-            ['Letters',         13]]
+            ['Letters',          13]]
 
 puts title.center(50)
 puts
