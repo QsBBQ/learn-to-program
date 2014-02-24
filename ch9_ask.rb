@@ -8,16 +8,16 @@ def ask question
 
     if (reply == 'yes' || reply == 'no')
       if reply == 'yes'
-        answer = true
+        return true
       else
-        answer = false
+        return false
       end
       break
     else
       puts ' Please anser "yes" or "no".'
     end
   end
-  return answer
+  
 end
 
 puts 'Hello, and thank you for...'
